@@ -1,13 +1,18 @@
 <?php
 /******************************************************************************
-1. Class definition
-   "class [ClassName] {}"
+Points:
+    1. Class definition
+       "class [ClassName] {}"
 
-2. Valid class name
-   Starts with a letter or underscore, followed by any number of letters,
-   numbers, or underscores
+    2. Valid class name
+       Starts with a letter or underscore, followed by any number of letters,
+       numbers, or underscores
 
-3. A Class may contain its own consts, vars (properties), functions (methods)
+    3. A Class may contain its own consts, vars (properties), functions
+       (methods)
+
+Output:
+    None
 ******************************************************************************/
 
 class SimpleClass
