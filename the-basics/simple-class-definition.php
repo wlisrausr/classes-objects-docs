@@ -21,4 +21,4 @@ class SimpleClass
         echo $this->var;
     }
 }
-?>
+
