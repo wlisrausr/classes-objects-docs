@@ -11,7 +11,8 @@ Output:
 ******************************************************************************/
 
 namespace NS {
-    class ClassName {
+    class ClassName
+    {
     }
 
     echo ClassName::class, PHP_EOL;

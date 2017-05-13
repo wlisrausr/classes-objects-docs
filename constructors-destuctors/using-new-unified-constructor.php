@@ -16,20 +16,25 @@ Output:
     In BaseClass constructor
 ******************************************************************************/
 
-class BaseClass {
-    function __construct() {
+class BaseClass
+{
+    function __construct()
+    {
         print "In BaseClass constructor\n";
     }
 }
 
-class SubClass extends BaseClass {
-    function __construct() {
+class SubClass extends BaseClass
+{
+    function __construct()
+    {
         parent::__construct();
         print "In SubClass constructor\n";
     }
 }
 
-class OtherSubClass extends BaseClass {
+class OtherSubClass extends BaseClass
+{
 }
 
 $obj = new BaseClass();

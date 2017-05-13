@@ -11,7 +11,8 @@ class foo
 {
     public $bar;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->bar = function() {
             return 42;
         };

@@ -22,7 +22,8 @@ class MyClass
 {
     const CONSTANT = 'constant value';
 
-    function showConstant() {
+    function showConstant()
+    {
         echo self::CONSTANT . "\n";
     }
 }

@@ -18,7 +18,8 @@ class SimpleClass
 {
     public $var = "a default value\n";
 
-    public function displayVar() {
+    public function displayVar()
+    {
         echo $this->var;
     }
 }
